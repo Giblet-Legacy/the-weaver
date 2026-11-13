@@ -25,7 +25,7 @@ CHANGELOG.md — build history for The Weaver, latest entry at top.
 
 ### Bad
 
-- Frozen on the laptop run alone (2026-11-13); the S24 run is still to be confirmed.
+- Frozen on the laptop run alone (2026-11-13); confirmed on the S24 by James, 2026-11-13.
 - v1.0.0 never found a claim in a real substrate: it parsed `created_at` with `float()`, but P9 writes ISO 8601 strings, so every row was skipped and the briefing always said "Nothing to weave". The v1 tests inserted numeric timestamps by hand. Pinned in test_weaver_v1_1 test 1; fixed in v1.1.
 
 ### Ugly

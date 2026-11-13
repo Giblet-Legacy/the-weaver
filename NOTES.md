@@ -4,7 +4,7 @@ NOTES.md — open questions and decisions for The Weaver.
 
 ## Open questions
 
-- **Q1 — Freeze v1.1.0?** **Resolved 2026-11-13 — James: "freeze all".** Frozen on the laptop run; the S24 run is still to be confirmed. weaver_v1_1.py built and green on the
+- **Q1 — Freeze v1.1.0?** **Resolved 2026-11-13 — James: "freeze all".** Frozen on the laptop run; confirmed on the S24 by James, 2026-11-13. weaver_v1_1.py built and green on the
   laptop (14/14). Not yet run on the S24 or against LLLM. Raised
   2026-11-13. Owner: James.
 
