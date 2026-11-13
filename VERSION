@@ -1,0 +1,5 @@
+# VERSION — the-weaver (Tier 1: The Weaver)
+# Function: the current release version of this consumer. Advances only on freeze.
+# 1.0.0 — The Weaver frozen. Tests pass (8/8).
+
+1.0.0
