@@ -25,7 +25,7 @@ CHANGELOG.md — build history for The Weaver, latest entry at top.
 
 ### Bad
 
-- Frozen on the laptop run alone (2026-11-13); the S24 run is still to be confirmed.
+- Frozen on the laptop run alone (2026-11-13); confirmed on the S24 by James, 2026-11-13.
 - Weaver v1.1 (frozen) could not be imported outside a sibling repo: weaver.py imports P14 v1, which finds weight-layer relative to the working directory. The tests ran from inside the repo and missed it; The Legacy's Morning Briefing failed when started from the parent directory. Found 2026-11-13; pinned in test_weaver_v1_2 test 1.
 
 ### Ugly
