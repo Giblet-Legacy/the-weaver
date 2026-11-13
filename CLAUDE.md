@@ -14,8 +14,10 @@ Never rewrite a primitive. Add a layer. You consume P9 and P14. You do
 not rewrite them.
 
 ## LLM: LLLM only
-Do not use Ollama or OpenRouter. You shell out to `lllm gen` to generate
-the briefing.
+Do not use Ollama or OpenRouter. From v1.3 (`weaver_v1_3.py`, SPEC_V1_3.md, frozen
+1.3.0) the briefing is written from the claims and the engine (`lllm gen <subject>`, found
+via LLLM_CLI or PATH) adds at most one line per claim; the engine is an n-gram model,
+so never send it instructions.
 
 ## Constraints
 - Standard library only (except `pytest` for dev).

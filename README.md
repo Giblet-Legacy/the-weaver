@@ -15,4 +15,6 @@ Licence:  MSL-1.0
 Author:   James Gilbert (Giblets Forge)
 Status:   1.0.0 frozen (weaver.py). v1.1 (weaver_v1_1.py, SPEC_V1_1.md)
           frozen at 1.1.0. v1.2 (weaver_v1_2.py, SPEC_V1_2.md: imports from
-          any directory) frozen at 1.2.0. Run `python weaver_v1_2.py`.
+          any directory) frozen at 1.2.0. v1.3 (weaver_v1_3.py, SPEC_V1_3.md:
+          briefing from claims, engine line via LLLM_CLI) frozen at 1.3.0.
+          Run `python weaver_v1_3.py`.

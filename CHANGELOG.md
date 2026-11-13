@@ -16,6 +16,32 @@ CHANGELOG.md — build history for The Weaver, latest entry at top.
 
 - (none)
 
+## [v1.3.0] — 2026-11-13 — FROZEN
+
+### Good
+
+- `SPEC_V1_3.md`, `test_weaver_v1_3.py` (4 tests, run red first) and
+  `weaver_v1_3.py`: the briefing is written from the fading UNKNOWN
+  claims themselves, each cited with lambda and id; the LLLM engine adds
+  at most one line per claim, continued from its subject. The engine is
+  found through `LLLM_CLI` (run with this Python) or `lllm` on PATH; a
+  refusal or a missing engine never breaks the briefing.
+- 21/21 pass from the repo. weaver.py, v1_1 and v1_2 untouched. Built on
+  James's delegation ("make sure [the LLLM] is properly wired in").
+  Frozen at 1.3.0 (James: "freeze commmit and push", 2026-11-13); laptop run, S24 run
+  still to be confirmed.
+
+### Bad
+
+- Found 2026-11-13: v1.0-v1.2 sent a chat-style prompt to an n-gram
+  engine that continues seeds, and could not reach the engine at all
+  (its README installs `lllm` as a shell function Python cannot see).
+
+### Ugly
+
+- From the parent directory the frozen v1 and v1.1 test files still fail
+  to import (P14 v1 cwd bug, recorded at v1.2); v1.2 and v1.3 pass.
+
 ## [v1.2.0] — 2026-11-13 — FROZEN
 
 ### Good

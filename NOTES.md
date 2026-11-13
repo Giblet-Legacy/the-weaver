@@ -4,6 +4,10 @@ NOTES.md — open questions and decisions for The Weaver.
 
 ## Open questions
 
+- **Q3 — Freeze v1.3.0?** Briefing from claims, engine as an aside
+  (SPEC_V1_3.md). Built and green on the laptop (21/21). Not yet run on
+  the S24 or against the real engine. Raised 2026-11-13. Owner: James.
+  **Resolved 2026-11-13 — James: "freeze commmit and push".** Frozen on the laptop run; S24 run still to be confirmed.
 - **Q2 — Freeze v1.2.0?** **Resolved 2026-11-13 — James: "freeze".** Frozen on the laptop run; confirmed on the S24 by James, 2026-11-13. weaver_v1_2.py (import from any directory)
   built and green on the laptop (17/17). Raised 2026-11-13. Owner: James.
 - **Q1 — Freeze v1.1.0?** **Resolved 2026-11-13 — James: "freeze all".** Frozen on the laptop run; confirmed on the S24 by James, 2026-11-13. weaver_v1_1.py built and green on the
