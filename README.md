@@ -13,4 +13,5 @@ Depends:  P9 Substrate (SQLite), P14 Leighton Engine (decay math)
 LLM:      LLLM only (lllm CLI as subprocess)
 Licence:  MSL-1.0
 Author:   James Gilbert (Giblets Forge)
-Status:   0.0.0-dev (in build, pre-freeze)
+Status:   1.0.0 frozen (weaver.py). v1.1 (weaver_v1_1.py, SPEC_V1_1.md)
+          frozen at 1.1.0. Run `python weaver_v1_1.py`.

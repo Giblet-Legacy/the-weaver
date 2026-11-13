@@ -2,6 +2,12 @@
 
 NOTES.md — open questions and decisions for The Weaver.
 
+## Open questions
+
+- **Q1 — Freeze v1.1.0?** **Resolved 2026-11-13 — James: "freeze all".** Frozen on the laptop run; the S24 run is still to be confirmed. weaver_v1_1.py built and green on the
+  laptop (14/14). Not yet run on the S24 or against LLLM. Raised
+  2026-11-13. Owner: James.
+
 ## Decisions
 - Reads directly from `FORGE_HOME/forge.db` (P9's schema).
 - Uses P14's `compute_lambda` to calculate decay, prioritizing
@@ -24,3 +30,6 @@ NOTES.md — open questions and decisions for The Weaver.
   **For P14 v2:** SPEC should say "k has unit time⁻¹, and callers
   are responsible for choosing the time unit consistently." That
   formalises the freedom the current spec accidentally grants.
+  **Resolved 2026-11-13:** P14 V3 (leighton-engine-layer SPEC_V3.md)
+  makes `time_unit` required and records days as the stack
+  convention. weaver_v1_1 uses it.

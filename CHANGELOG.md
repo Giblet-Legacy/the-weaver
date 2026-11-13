@@ -2,6 +2,36 @@
 
 CHANGELOG.md — build history for The Weaver, latest entry at top.
 
+## [Unreleased]
+
+### Good
+
+- (none)
+
+### Bad
+
+- (none)
+
+### Ugly
+
+- (none)
+
+## [v1.1.0] — 2026-11-13 — FROZEN
+
+### Good
+
+- `SPEC_V1_1.md`, `test_weaver_v1_1.py` (6 tests, run red first) and `weaver_v1_1.py`: reads P9 through substrate_v3's read-only API with verify-on-read (tampered claims are skipped and counted), and computes λ with P14 V3 in days. 14/14 pass.
+- Built on James's delegation ("fix all 11 issues"). Frozen at 1.1.0 on James's sign-off ("freeze all", 2026-11-13).
+
+### Bad
+
+- Frozen on the laptop run alone (2026-11-13); the S24 run is still to be confirmed.
+- v1.0.0 never found a claim in a real substrate: it parsed `created_at` with `float()`, but P9 writes ISO 8601 strings, so every row was skipped and the briefing always said "Nothing to weave". The v1 tests inserted numeric timestamps by hand. Pinned in test_weaver_v1_1 test 1; fixed in v1.1.
+
+### Ugly
+
+- (none)
+
 ## [v1.0.0] — 2026-11-13
 
 ### Good

@@ -2,4 +2,6 @@
 # Function: the current release version of this consumer. Advances only on freeze.
 # 1.0.0 — The Weaver frozen. Tests pass (8/8).
 
-1.0.0
+# 1.1.0 — weaver_v1_1.py frozen (SPEC_V1_1.md: P9 v3 reader, P14 V3 days). Tests pass (14/14).
+
+1.1.0
