@@ -4,6 +4,8 @@ NOTES.md — open questions and decisions for The Weaver.
 
 ## Open questions
 
+- **Q2 — Freeze v1.2.0?** weaver_v1_2.py (import from any directory)
+  built and green on the laptop (17/17). Raised 2026-11-13. Owner: James.
 - **Q1 — Freeze v1.1.0?** **Resolved 2026-11-13 — James: "freeze all".** Frozen on the laptop run; confirmed on the S24 by James, 2026-11-13. weaver_v1_1.py built and green on the
   laptop (14/14). Not yet run on the S24 or against LLLM. Raised
   2026-11-13. Owner: James.

@@ -6,6 +6,21 @@ CHANGELOG.md — build history for The Weaver, latest entry at top.
 
 ### Good
 
+- `SPEC_V1_2.md`, `test_weaver_v1_2.py` (3 tests, run red first) and `weaver_v1_2.py`: puts weight-, trust-, leighton-engine- and envelope-layer on sys.path from its own file before importing v1.1, so The Weaver imports and runs from any working directory. 17/17 pass.
+- Built for James's "whole projection" request (2026-11-13). Not frozen (NOTES Q2).
+
+### Bad
+
+- Weaver v1.1 (frozen) could not be imported outside a sibling repo: weaver.py imports P14 v1, which finds weight-layer relative to the working directory. The tests ran from inside the repo and missed it; The Legacy's Morning Briefing failed when started from the parent directory. Found 2026-11-13; pinned in test_weaver_v1_2 test 1.
+
+### Ugly
+
+- (none)
+
+## [Unreleased]
+
+### Good
+
 - (none)
 
 ### Bad
