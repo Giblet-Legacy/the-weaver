@@ -14,5 +14,5 @@ LLM:      LLLM only (lllm CLI as subprocess)
 Licence:  MSL-1.0
 Author:   James Gilbert (Giblets Forge)
 Status:   1.0.0 frozen (weaver.py). v1.1 (weaver_v1_1.py, SPEC_V1_1.md)
-          frozen at 1.1.0. Run `python weaver_v1_2.py` (v1.2 imports
-          from any directory; SPEC_V1_2.md).
+          frozen at 1.1.0. v1.2 (weaver_v1_2.py, SPEC_V1_2.md: imports from
+          any directory) frozen at 1.2.0. Run `python weaver_v1_2.py`.
