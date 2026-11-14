@@ -6,11 +6,20 @@ CHANGELOG.md — build history for The Weaver, latest entry at top.
 
 ### Good
 
-- (none)
+- `weaver_v1_4.py`, `SPEC_V1_4.md`, `test_weaver_v1_4.py` (8 tests, run
+  red first): each open question gets its own engine line. The engine
+  is seeded "subject object", then "object", then "subject", and a line
+  is kept only if it is new to the briefing and names the subject. On
+  James's PC build (fc1ac624ac8b) the three envelope-layer questions
+  now get three different lines instead of "Envelope-layer and P2 at."
+  three times. 29/29 pass. weaver.py and v1.1-v1.3 untouched. Built on
+  James's delegation ("yes"). Not frozen (NOTES).
 
 ### Bad
 
-- (none)
+- v1.3's `main` stops with UnicodeEncodeError on a Windows console
+  (cp1252 has no "λ"). The Legacy was not affected (it does not print).
+  v1.4's `main` writes UTF-8 and replaces what the console cannot show.
 
 ### Ugly
 

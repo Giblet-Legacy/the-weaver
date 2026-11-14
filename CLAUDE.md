@@ -17,7 +17,9 @@ not rewrite them.
 Do not use Ollama or OpenRouter. From v1.3 (`weaver_v1_3.py`, SPEC_V1_3.md, frozen
 1.3.0) the briefing is written from the claims and the engine (`lllm gen <subject>`, found
 via LLLM_CLI or PATH) adds at most one line per claim; the engine is an n-gram model,
-so never send it instructions.
+so never send it instructions. From v1.4 (`weaver_v1_4.py`, SPEC_V1_4.md, built, not frozen)
+the engine is seeded "subject object", "object", "subject", and a line is kept only if it is
+new to the briefing and names the subject, so each question gets its own line.
 
 ## Constraints
 - Standard library only (except `pytest` for dev).
