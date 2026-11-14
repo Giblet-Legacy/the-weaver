@@ -7,6 +7,7 @@ NOTES.md — open questions and decisions for The Weaver.
 - **Q4 — Freeze v1.4.0?** One engine line per question; UTF-8 console
   output (SPEC_V1_4.md). weaver_v1_4.py built and green on the laptop
   (29/29). Raised 2026-11-14. Owner: James.
+  **Resolved 2026-11-14 — James: "phone worked freeze please".** Frozen; tests pass on the laptop and the S24.
 - **Q3 — Freeze v1.3.0?** Briefing from claims, engine as an aside
   (SPEC_V1_3.md). Built and green on the laptop (21/21). Not yet run on
   the S24 or against the real engine. Raised 2026-11-13. Owner: James.

@@ -6,6 +6,20 @@ CHANGELOG.md — build history for The Weaver, latest entry at top.
 
 ### Good
 
+- (none)
+
+### Bad
+
+- (none)
+
+### Ugly
+
+- (none)
+
+## [v1.4.0] — 2026-11-14 — FROZEN
+
+### Good
+
 - `weaver_v1_4.py`, `SPEC_V1_4.md`, `test_weaver_v1_4.py` (8 tests, run
   red first): each open question gets its own engine line. The engine
   is seeded "subject object", then "object", then "subject", and a line
